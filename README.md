@@ -25,9 +25,7 @@ Here are some visual resources to help you better understand the app:
 ![Screenshot 2](screenshots/2.jpg)
 ![Screenshot 3](screenshots/3.jpg)
 
-### Video Demo
 
-[Watch the Video Demo](https://www.example.com)
 
 ## Installation
 
@@ -38,13 +36,13 @@ To run the ToDo App on your local machine, follow these steps:
 2. Clone this repository using the following command:
 
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/AmriteshKhare/AppToDo
    ```
 
 3. Navigate to the project directory:
 
    ```
-   cd your-repo
+   cd apptodo
    ```
 
 4. Fetch the required dependencies by executing the following command:
@@ -89,6 +87,6 @@ Feel free to explore and make use of these resources to further enhance your own
 
 ## Contact
 
-For any further information or inquiries, please contact [Your Name](mailto:your-email@example.com).
+For any further information or inquiries, please contact [Amritesh Khare](mailto:amriteshkhare2000@gmail.com).
 
 Happy task managing!
