@@ -43,7 +43,7 @@ class TodoWidget extends StatelessWidget {
   Widget buildTodo(BuildContext context) => GestureDetector(
         onTap: () => editTodo(context, todo),
         child: Container(
-          color: Colors.white,
+          color: Color(0xFFF5F5DC),
           padding: EdgeInsets.all(20),
           child: Row(
             children: [

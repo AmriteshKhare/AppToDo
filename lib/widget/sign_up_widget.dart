@@ -19,9 +19,9 @@ class SignUpWidget extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 20),
-              width: 175,
+              width: 180,
               child: Text(
-                'Welcome Back To MyApp',
+                'Productivity  at your fingertips',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,
@@ -33,10 +33,10 @@ class SignUpWidget extends StatelessWidget {
           Spacer(),
           GoogleSignupButtonWidget(),
           SizedBox(height: 12),
-          Text(
-            'Login to continue',
-            style: TextStyle(fontSize: 16),
-          ),
+          // Text(
+          //   'Login to continue',
+          //   style: TextStyle(fontSize: 16),
+          // ),
           Spacer(),
         ],
       );

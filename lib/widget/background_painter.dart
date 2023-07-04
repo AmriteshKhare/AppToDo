@@ -17,13 +17,13 @@ class BackgroundPainter extends CustomPainter {
 
   BackgroundPainter()
       : bluePaint = Paint()
-          ..color = Colors.lightBlue.shade300
+          ..color = Color(0xFFFFE5A0)
           ..style = PaintingStyle.fill,
         greyPaint = Paint()
-          ..color = Colors.blueGrey[900]
+          ..color = Color(0xFF9E7BFF)
           ..style = PaintingStyle.fill,
         orangePaint = Paint()
-          ..color = Colors.orange.shade400
+          ..color = Color(0xFF000000)
           ..style = PaintingStyle.fill,
         linePaint = Paint()
           ..color = Colors.orange[300]

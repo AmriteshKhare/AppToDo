@@ -60,7 +60,7 @@ class TodoFormWidget extends StatelessWidget {
         width: double.infinity,
         child: ElevatedButton(
           style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.black),
+            backgroundColor: MaterialStateProperty.all(const Color(0xFF9E7BFF)),
           ),
           onPressed: onSavedTodo,
           child: Text('Save'),

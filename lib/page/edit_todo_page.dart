@@ -30,6 +30,7 @@ class _EditTodoPageState extends State<EditTodoPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
+          backgroundColor: const Color(0xFF9E7BFF),
           title: Text('Edit Todo'),
           actions: [
             IconButton(
