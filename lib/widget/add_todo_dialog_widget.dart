@@ -15,36 +15,6 @@ class _AddTodoDialogWidgetState extends State<AddTodoDialogWidget> {
   String description = '';
 
   @override
-  // Widget build(BuildContext context) => Dialog(
-  //       key: _formKey,
-  //       shape: RoundedRectangleBorder(
-  //         borderRadius: BorderRadius.circular(16),
-  //       ),
-  //       child: Container(
-  //         padding: EdgeInsets.all(16),
-  //         child: Column(
-  //           mainAxisSize: MainAxisSize.min,
-  //           crossAxisAlignment: CrossAxisAlignment.start,
-  //           children: [
-  //             Text(
-  //               'Add Todo',
-  //               style: TextStyle(
-  //                 fontWeight: FontWeight.bold,
-  //                 fontSize: 22,
-  //               ),
-  //             ),
-  //             SizedBox(height: 16),
-  //             TodoFormWidget(
-  //               onChangedTitle: (title) => setState(() => this.title = title),
-  //               onChangedDescription: (description) =>
-  //                   setState(() => this.description = description),
-  //               onSavedTodo: addTodo,
-  //             ),
-  //           ],
-  //         ),
-  //       ),
-  //     );
-
   Widget build(BuildContext context) => AlertDialog(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
